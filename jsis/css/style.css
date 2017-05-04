@@ -1,0 +1,279 @@
+body{
+    background:#f2efe8;
+    font-family: "微软雅黑";
+}
+.area{
+    width: 1002px;
+    height: 334px;
+    margin:0 auto;
+}
+a{  color:#121212;  }
+/*顶部开始*/
+#header{
+    width: 100%;
+    background:url("../img/index_11.png") no-repeat center center;
+}
+#header .head_bj{
+    padding-top:238px;
+    position:relative;
+}
+#header .head_bj img{
+    width:1002px;
+}
+#header .head_menu{
+    position:absolute;
+    top:250px;
+    padding:0 30px;
+    text-align: center;
+
+}
+#header .head_menu li{
+    width:157px;
+    height:54px;
+    float:left;
+}
+#header .head_menu li a{
+    color:#fff;
+    font-size: 20px;
+}
+/*顶部结束*/
+
+/*content*/
+
+/*header*/
+#section .sec_head{
+    height:280px;
+}
+#section .sec_head .sec_head_left{
+    width:48%;
+    height:280px;
+    float:left;
+    border:3px solid #f9f7f4;
+}
+#section .sec_head .sec_head_left .swiper-slide {
+    position: relative;
+}
+#section .sec_head .sec_head_left .page{
+    width:461px;
+    height: 54px;
+    background: rgba(178,25,21,0.7);
+    position:absolute;
+    z-index: 666;
+    top:200px;
+    color:#fff;
+    padding:0 10px;
+}
+.swiper-container .swiper-container-horizontal>.swiper-pagination-bullets{
+    bottom:0;
+}
+.swiper-pagination .swiper-pagination-bullet-active{
+    background: #fff;
+}
+#section .sec_head .sec_head_right{
+    width:48%;
+    height:280px;
+    float:right;
+}
+#section .sec_head .sec_head_right .sec_h_r_c{
+    padding:10px 18px;
+}
+#section .sec_head .sec_head_right .sec_h_r_c .top{
+    color:#e00404;
+    font-size: 26px;
+}
+#section .sec_head .sec_head_right .sec_h_r_c .center{
+    color:#363636;
+    font-size: 12px;
+    margin:20px 0;
+    line-height:20px;
+}
+#section .sec_head_right .sec_h_r_c .foot{
+    border-top:1px dashed #363636;
+}
+#section .sec_head_right .sec_h_r_c .foot ul{
+    font-size: 14px;
+    list-style:square;
+    margin-top:20px;
+    padding-left:18px;
+}
+#section .sec_head_right .sec_h_r_c .foot ul li{
+    line-height:26px;
+}
+#section .sec_head_right .sec_h_r_c .foot ul li span{
+    color:#b2b1ae;
+    display: block;
+    float:right;
+}
+/*header*/
+
+/*body*/
+#section .sec_body{
+    height:464px;
+    margin-bottom:32px;
+}
+#section .sec_body_top{
+    height:74px;
+    line-height: 74px;
+    text-align: center;
+    margin:32px 0;
+    background:#efebe0;
+    position:relative;
+    border-top:2px solid #e8e2d2;
+    border-bottom:2px solid #e8e2d2;
+}
+#section .sec_body_top img{
+    display: block;
+    margin-top:-5px;
+
+}
+#section .sec_body_top .text{
+    color:#fff;
+    font-size: 18px;
+    position:absolute;
+    left:30px;
+    top:-28px;
+}
+#section .sec_body_top ul{
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+}
+#section .sec_body_top ul li{
+    float:left;
+    padding-left:24px;
+}
+#section .sec_body_top ul li:last-child{
+    float:right;
+    padding-right:24px;
+}
+#section .sec_body_top ul li a{
+    font-size: 14px;
+}
+#section .sec_body_img .sec_body_left{
+    width: 350px;
+    height: 350px;
+    margin-right:20px;
+    float:left;
+}
+#section .sec_body_img .sec_body_left img{
+    border:2px solid #f9f7f4;
+}
+#section .sec_body_img .sec_body_right{
+    width: 625px;
+    height: 350px;
+    float:right;
+}
+/*body*/
+
+/*第一部分*/
+#section .sec_content{
+    height:730px;
+    position: relative;
+}
+#section .sec_content .sec_con_top{
+    height: 300px;
+}
+#section .sec_content .sec_con_left::after,.sec_con_right::after{
+    content: "";
+    width: 125px;
+    height: 6px;
+    background:#ca1312;
+    position: absolute;
+    top:0;
+}
+#section .sec_content .sec_con_left{
+    width:490px;
+    height:297px;
+    float:left;
+    margin-right:20px;
+    background: #f9f7f4;
+    border-top:3px solid #d5c2b0;
+}
+.sec_content .sec_con_left .sec_con_left_text,.sec_con_right .sec_con_left_text{
+    padding:20px;
+}
+#section .sec_content .sec_con_left .sec_con_left_content,.sec_con_right .sec_con_left_content{
+    padding: 0 0 0 40px;
+}
+#section .sec_content .sec_con_left .sec_con_left_content ul,.sec_con_right .sec_con_left_content ul{
+    list-style: square;
+}
+.sec_content .sec_con_left .sec_con_left_content ul li,.sec_con_right .sec_con_left_content ul li{
+    line-height: 28px;
+}
+.sec_content .sec_con_left .sec_con_left_content ul li a,.sec_con_right .sec_con_left_content ul li a{
+    font-size: 14px;
+}
+.sec_content .sec_con_left .sec_con_left_content ul li span,.sec_con_right .sec_con_left_content ul li span{
+    display: block;
+    float: right;
+    color:#b2b1ae;
+    padding-right:20px;
+}
+.sec_content .sec_con_left .sec_con_left_text span:first-child,.sec_con_right .sec_con_left_text span:first-child{
+    color:#ca1413;
+    font-size: 18px;
+    font-weight:700;
+    letter-spacing: 2px;
+    display: block;
+    float:left;
+}
+.sec_content .sec_con_left .sec_con_left_text span:nth-child(2),.sec_con_right .sec_con_left_text span:nth-child(2){
+    display: block;
+    float:right;
+    color:#787878;
+    font-size: 12px;
+}
+#section .sec_content .sec_con_right{
+     width:490px;
+     height:297px;
+     float:right;
+     background: #f9f7f4;
+     border-top:3px solid #d5c2b0;
+ }
+ /*第一部分*/
+
+/*第二部分*/
+#section .sec_content .sec_center{
+    margin:30px 0;
+}
+#section .sec_content .sec_center ul li{
+    float:left;
+    border: 1px solid #e7e1d1;
+}
+#section .sec_content .sec_center ul li .sec_center_div{
+    width:312px;
+    height:68px;
+    text-align: center;
+    border:2px solid #f9f7f4;
+    background: #edd1a9;
+}
+#section .sec_content .sec_center .lilist{
+    margin:0 24px;
+}
+#section .sec_content .sec_center ul li .sec_center_div a{
+    font-size: 22px;
+    color:#a40606;
+}
+#section .sec_content .sec_center ul li .sec_center_div .group{
+    padding-top:20px;
+    display: inline-block;
+}
+#section .sec_content .sec_center ul li .sec_center_div a span{
+    font-size: 20px;
+    color:#a40606;
+}
+#foot{
+    color:#fff;
+    height:72px;
+    text-align: center;
+    margin:20px 0;
+    font-size: 14px;
+    background: url("../img/index_13.png") no-repeat;
+    background-size: cover;
+}
+#foot p:first-child{
+    padding:10px 0;
+}
+/*第二部分*/
+/*content*/
